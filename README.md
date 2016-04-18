@@ -14,11 +14,11 @@ The following counters are currently supported:
 ```
 GpuPerfCounters.exe -install
 ```
-3. Now that you have GPU performance counters service (`GpuPerfCounters`) installed, start it using the following command:
+3. Now that you have GPU performance counters service (`GpuPerfCounters`) installed, start it:
 ```
 sc start GpuPerfCounters
 ```
-4. To use GPU performance counters, run PerfMon (`perfmon.exe`) and add counters from `GPU` category:
+4. To view GPU performance counters, run PerfMon (`perfmon.exe`) and add counters from `GPU` category:
 
 ![PerfMon Counters](doc/images/5.png)
 
