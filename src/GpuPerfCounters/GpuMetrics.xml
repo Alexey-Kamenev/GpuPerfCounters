@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Metrics xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+         xmlns="http://schemas.microsoft.com/HpcMetricsFileFormat/2007/12">
+  <PerformanceCounterMetric
+       Name="GpuTime"
+       DisplayName="GPU Time (%)"
+       SampleRate="Second"
+       StoreRate="Minute"
+       Description="Percentage GPU Time"
+       MetricTarget="ComputeNode"
+       Minimum="0"
+       Maximum="100"
+       Category="GPU"
+       Counter="% GPU Time"
+       Instance="_total"/>
+  <PerformanceCounterMetric
+       Name="GpuMemoryUsedPct"
+       DisplayName="GPU Memory Used (%)"
+       SampleRate="Second"
+       StoreRate="Minute"
+       Description="Percentage GPU Memory"
+       MetricTarget="ComputeNode"
+       Minimum="0"
+       Maximum="100"
+       Category="GPU"
+       Counter="% GPU Memory Used"
+       Instance="_total"/>
+  <PerformanceCounterMetric
+       Name="GpuPower"
+       DisplayName="GPU Power Usage (Watts)"
+       SampleRate="Second"
+       StoreRate="Minute"
+       Description="GPU Power Usage"
+       MetricTarget="ComputeNode"
+       Minimum="0"
+       Maximum="300"
+       Category="GPU"
+       Counter="GPU Power Usage (Watts)"
+       Instance="_total"/>
+  <PerformanceCounterMetric
+       Name="GpuSMClock"
+       DisplayName="GPU SM Clock (MHz)"
+       SampleRate="Second"
+       StoreRate="Minute"
+       Description="GPU SM Clock"
+       MetricTarget="ComputeNode"
+       Minimum="0"
+       Maximum="1500"
+       Category="GPU"
+       Counter="GPU SM Clock (MHz)"
+       Instance="_total"/>
+  <PerformanceCounterMetric
+       Name="GpuTemperature"
+       DisplayName="GPU Temperature (in degrees C)"
+       SampleRate="Second"
+       StoreRate="Minute"
+       Description="GPU Temperature (in degrees C)"
+       MetricTarget="ComputeNode"
+       Minimum="0"
+       Maximum="100"
+       Category="GPU"
+       Counter="GPU Temperature (in degrees C)"
+       Instance="_total"/>
+</Metrics>
